@@ -7,6 +7,8 @@
 
 body {
     background-color: black;
+    min-height: 100vh;
+
     
 }
 
@@ -40,13 +42,14 @@ header a {
 main img {
     height: 150px;
     width: 150px;
-}
+} 
 
 main section#coluna1 {
+    margin-top: 30px;
     display: block;
     columns: 3;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 main section#coluna2 {
@@ -56,7 +59,7 @@ main section#coluna2 {
     margin-top: 20px;
 }
 
-main div.container {
+main div.anuncios {
     background-color: white;
     width: 150px;
     height: 200px;
@@ -68,6 +71,9 @@ main div.container {
 
 
 footer {
+    margin-top: 20px;
     border-top: 2px solid white;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
