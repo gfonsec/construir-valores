@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: black;
-    min-height: 100vh;
+    background-color: grey;
+    
 
     
 }
@@ -44,30 +44,26 @@ main img {
     width: 150px;
 } 
 
-main section#coluna1 {
-    margin-top: 30px;
-    display: block;
-    columns: 3;
-    padding: 10px;
-    margin-bottom: 30px;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
 }
 
-main section#coluna2 {
-    display: block;
-    columns: 3;
-    padding: 10px;
-    margin-top: 20px;
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-main div.anuncios {
+main div {
     background-color: white;
     width: 150px;
     height: 200px;
     padding: 2em;
-    margin: auto;
     text-align: center;
+    margin: 20px;
 }
-
 
 
 footer {
