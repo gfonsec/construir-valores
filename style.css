@@ -6,19 +6,23 @@
 }
 
 body {
-    background-color: grey;
-    
-
-    
+    background-image: url('../imagens/grafico.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     
 }
 
-header {
+header div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
     border-bottom: 0.4px solid white;
+    height: 200px;
+    background: conic-gradient(from 89.3deg at 50% 55.99%, rgba(8, 7, 7, 0.980076) -9.69deg, #070707 37.14deg, #7C6203 181.91deg, #181817 311.28deg, rgba(8, 7, 7, 0.980076) 350.31deg, #070707 397.14deg);
 
 }
 
@@ -29,7 +33,7 @@ header img {
 
 header nav {
     display: flex;
-    gap: 32px;
+    gap: 15px;
 }
 
 header a {
@@ -37,36 +41,47 @@ header a {
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-main img {
+section {
+    max-width: 1100px;
+    height: 680px;
+    background-color: rgba(0, 0, 0, 0.705);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container, .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+
+.container div {
+    flex: 1;
+}
+
+.anuncio {
+    background-color: rgb(119, 124, 45);
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container img {
     height: 150px;
     width: 150px;
-} 
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
 }
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-main div {
-    background-color: white;
-    width: 150px;
-    height: 200px;
-    padding: 2em;
-    text-align: center;
-    margin: 20px;
-}
-
 
 footer {
+    background-color: black;
     margin-top: 20px;
     border-top: 2px solid white;
     color: white;
