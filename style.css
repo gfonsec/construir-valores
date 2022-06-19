@@ -22,15 +22,15 @@ header div{
     justify-content: space-evenly;
     padding: 10px;
     border-bottom: 0.4px solid white;
-    height: 200px;
+    height: 190px;
     background: conic-gradient(from 89.3deg at 50% 55.99%, rgba(8, 7, 7, 0.980076) -9.69deg, #070707 37.14deg, #7C6203 181.91deg, #181817 311.28deg, rgba(8, 7, 7, 0.980076) 350.31deg, #070707 397.14deg);
 
 }
 
 header img {
     display: flex;
-    height: 280px;
-    width: 280px;
+    height: 270px;
+    width: 270px;
 }
 
 header nav {
