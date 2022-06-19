@@ -23,7 +23,7 @@ header div{
     padding: 10px;
     border-bottom: 0.4px solid white;
     height: 170px;
-    background: conic-gradient(from 89.3deg at 50% 55.99%, rgba(8, 7, 7, 0.980076) -9.69deg, #070707 37.14deg, #7C6203 181.91deg, #181817 311.28deg, rgba(8, 7, 7, 0.980076) 350.31deg, #070707 397.14deg);
+    background: conic-gradient(from 89.3deg at 50% 55.99%, #0B0B0A 0deg, rgba(8, 7, 7, 0.980076) 0.05deg, #070707 0.28deg, #7C6203 181.91deg, #0B0B0A 360deg);
 
 }
 
@@ -40,12 +40,12 @@ header nav {
 }
 
 header a {
-    display: flex;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     border: 1px solid white;
     padding: 5px;
+    text-align: center;
     border-radius: 5px;
     
 }
