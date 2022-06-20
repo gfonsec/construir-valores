@@ -67,11 +67,8 @@ section {
       
 }
 
-.container div {
-    flex: 1;
-}
-
 .anuncio {
+    flex: 1;
     background-color: white;
     height: 300px;
     width: auto;
