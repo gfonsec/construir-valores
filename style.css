@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -32,17 +34,16 @@ header nav {
 }
 
 header a {
-    color: #ebd939;
-    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #b9ab28;
     text-transform: uppercase;
+    font-size: 1em;
     padding: 2px;
-    text-align: center;
-    border-radius: 5px;
-    
+    text-align: center;   
 }
 
 main {
-    background-image: url("../imagens/grafico.jpg");
+    background-image: url("construir-valores/imagens/grafico.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
