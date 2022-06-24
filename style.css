@@ -60,7 +60,7 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     color: black;
 }
@@ -70,7 +70,7 @@ main {
 
     background-color: rgba(0, 0, 0, 0.945);
     min-width: 290px;
-    height: 320px;
+    height: 330px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
