@@ -49,10 +49,6 @@ header a:hover {
     color: white;
 }
 
-header a::after {
-    color: red;
-}
-
 main {
     background-image: url("../construir-valores/imagens/grafico.jpg");
     background-size: cover;
@@ -64,10 +60,7 @@ main {
 .container {
     display: flex;
     flex-wrap: wrap;
-    
-
     max-width: 1200px;
-    
     margin: auto;
     color: black;
 }
@@ -75,7 +68,7 @@ main {
 .anuncio {
     flex: 1;
 
-    background-color: rgba(0, 0, 0, 0.900);
+    background-color: rgba(0, 0, 0, 0.945);
     min-width: 290px;
     height: 300px;
     padding: 10px;
@@ -86,11 +79,10 @@ main {
 
 .anuncio p {
     color: white;
-    
-    padding: 0px 20px 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    justify-content: 5px;
+    padding: 0px 20px 0px 20px;
+    text-indent: 30px;
     text-align: justify;
     line-height: 2em;
     margin-top: 20px;
@@ -110,8 +102,7 @@ footer {
     color: white;
     border-top: 1px solid white;
     padding: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 footer a {
