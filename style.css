@@ -59,17 +59,19 @@ main {
 
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1020px;
     margin: auto;
     color: black;
 }
 
 .anuncio {
-    flex: 1;
+    
 
     background-color: rgba(0, 0, 0, 0.900);
-    min-width: 290px;
+    width: 300px;
     height: 350px;
     padding: 10px;
     margin: 10px;
