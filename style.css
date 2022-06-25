@@ -19,7 +19,7 @@ body {
     padding: 10px;
     border-bottom: 1px solid white;
     height: 170px;
-    background: conic-gradient(from 89.3deg at 50% 55.99%, rgba(8, 7, 7, 0.980076) -9.69deg, #070707 37.14deg, #7C6203 181.91deg, #181817 311.28deg, rgba(8, 7, 7, 0.980076) 350.31deg, #070707 397.14deg);
+    background-image: linear-gradient(to right, #b98936, black);
 
 }
 
@@ -68,7 +68,7 @@ main {
 .anuncio {
     flex: 1;
 
-    background-color: rgba(0, 0, 0, 0.945);
+    background-color: rgba(0, 0, 0, 0.900);
     min-width: 290px;
     height: 350px;
     padding: 10px;
