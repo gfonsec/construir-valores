@@ -20,6 +20,7 @@ body {
     justify-content: space-around;
     padding: 10px;
     border-bottom: 1px solid white;
+    
     height: 150px;
     background-image: linear-gradient(to right, #b98936, black);
 
