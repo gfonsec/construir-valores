@@ -85,8 +85,8 @@ main {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    padding: 0px 30px 0px 30px;
-    text-align: justify;
+    padding: 0px 25px 0px 25px;
+    text-align: unset;
     line-height: 2.2em;
 }
 
