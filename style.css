@@ -58,7 +58,7 @@ main {
     justify-content: center;
     background-image: url("../construir-valores/imagens/grafico.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
