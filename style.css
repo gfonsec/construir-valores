@@ -73,7 +73,7 @@ main {
 }
 .anuncio {
     background-color: rgba(0, 0, 0, 0.950);
-    width: 270px;
+    width: 260px;
     height: 330px;
     padding: 10px;
     margin: 30px;
@@ -85,9 +85,13 @@ main {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    padding: 0px 25px 0px 25px;
     text-align: unset;
     line-height: 2.2em;
+}
+
+.anuncio a {
+    display: block;
+    padding: 0px 25px 0px 25px;
 }
 
 .anuncio img {
