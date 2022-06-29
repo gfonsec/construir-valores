@@ -56,7 +56,7 @@ header a:hover {
 main {
     display: flex;
     justify-content: center;
-    background-image: url("../construir-valores/imagens/grafico.jpg");
+    background-image: url("../construir-valores/imagens/fundopagina.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ main {
     max-width: 1050px;
 }
 .anuncio {
-    background-color: rgba(0, 0, 0, 0.950);
+    background-color: black;
     width: 260px;
     height: 330px;
     padding: 10px;
@@ -104,7 +104,7 @@ main {
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #1c1c1c;
     color: white;
     border-top: 1px solid white;
     padding: 20px;
