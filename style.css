@@ -58,7 +58,7 @@ main {
     justify-content: center;
     background-image: url("../construir-valores/imagens/grafico.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
@@ -113,4 +113,10 @@ footer {
 
 footer a {
     color: #ffbd4a;
+}
+
+@media (max-width: 400px) {
+    .anuncio {
+        width: 230px;
+    }
 }
