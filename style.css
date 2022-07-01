@@ -58,7 +58,6 @@ main {
     justify-content: center;
     background-image: url("../construir-valores/imagens/fundopagina.jpg");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
